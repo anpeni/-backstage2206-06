@@ -16,7 +16,8 @@ metadata:
     # prometheus.io/path: "/prometheus/api"           # Ruta relativa al punto de enlace de métricas
     # prometheus.io/port: "9090" 
     # prometheus.io/alert: all
-    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)  
+    # prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)  
+    prometheus.io/rule: 'MyRules'
     # grafana/dashboard-selector: "(tags @> 'my-service' || tags @> 'my-service-slo') && tags @> 'generated'"
 spec:
   type: service
