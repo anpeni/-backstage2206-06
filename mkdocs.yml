@@ -1,0 +1,8 @@
+site_name: "config-service-02"
+site_description: 
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

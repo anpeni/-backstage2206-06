@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "config-service-02"
+  annotations:
+    github.com/project-slug: anpeni/ backstage2206-06
+    backstage.io/techdocs-ref: dir:.
+    # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
+    grafana/alert-label-selector: "service=awesome-service"
+    grafana/dashboard-selector: micrometer
+    # grafana/dashboard-selector: "title == JVM (Micrometer)"
+    # grafana/overview-dashboard: 'http://localhost:4000/d/e4b2f8d4-8aed-4dab-a5fd-2cd3ddaa6893/jvm-micrometer?orgId=1&refresh=30s&from=1687354096754&to=1687440496754'
+    # grafana/overview-dashboard: "http://localhost:4000/d/e4b2f8d4-8aed-4dab-a5fd-2cd3ddaa6893/jvm-micrometer?orgId=1&refresh=30s"
+    # prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
+    # prometheus.io/path: "/prometheus/api"           # Ruta relativa al punto de enlace de métricas
+    # prometheus.io/port: "9090" 
+    # prometheus.io/alert: all
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)  
+    # grafana/dashboard-selector: "(tags @> 'my-service' || tags @> 'my-service-slo') && tags @> 'generated'"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"
