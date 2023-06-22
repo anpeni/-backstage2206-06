@@ -7,7 +7,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
     grafana/alert-label-selector: "service=awesome-service"
-    grafana/dashboard-selector: micrometer
+    # grafana/dashboard-selector: micrometer
+    grafana/tag-selector: "micrometer"
     # grafana/dashboard-selector: "title == JVM (Micrometer)"
     # grafana/overview-dashboard: 'http://localhost:4000/d/e4b2f8d4-8aed-4dab-a5fd-2cd3ddaa6893/jvm-micrometer?orgId=1&refresh=30s&from=1687354096754&to=1687440496754'
     # grafana/overview-dashboard: "http://localhost:4000/d/e4b2f8d4-8aed-4dab-a5fd-2cd3ddaa6893/jvm-micrometer?orgId=1&refresh=30s"
