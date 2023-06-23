@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: anpeni/ backstage2206-06
     backstage.io/techdocs-ref: dir:.
     # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
-    grafana/alert-label-selector: "alertname=Rate"
+    grafana/alert-label-selector: "alertname=rate"
     # grafana/dashboard-selector: micrometer
     grafana/tag-selector: "micrometer"
     # grafana/dashboard-selector: "title == JVM (Micrometer)"
