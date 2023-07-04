@@ -10,7 +10,7 @@ metadata:
     grafana/alert-name: "alerta1"
     # grafana/dashboard-selector: micrometer
     grafana/tag-selector: "micrometer"
-    sonarqube.org/project-key: com.neoris%3Atracing
+    sonarqube.org/project-key: "com.neoris:tracing"
     # grafana/tag-selector: "cost"
     # grafana/tag-selector: "alerta1"
     grafana/alert-label-selector: "alertname=rate"
