@@ -12,6 +12,7 @@ metadata:
     grafana/tag-selector: "micrometer"
     # sonarqube.org/project-key: "com.neoris:tracing"
     # sonarqube.org/project-key: "tracing/nuevaorganizacion_proyectotracing"
+    sonarqube.org/project-key: "nuevaorganizacion_proyectotracing"
     # grafana/tag-selector: "cost"
     # grafana/tag-selector: "alerta1"
     grafana/alert-label-selector: "alertname=rate"
