@@ -27,7 +27,7 @@ metadata:
     # prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)  
     # prometheus.io/rule: 'catalog_relations_count | entities, catalog_relations_count | entities'
     prometheus.io/rule: 'jvm_memory_used_bytes, jvm_gc_pause_seconds_max'
-    prometheus.io/alert: 'Excessive Memory Usage'
+    prometheus.io/alert: 'TestAlert'
     # grafana/dashboard-selector: "(tags @> 'my-service' || tags @> 'my-service-slo') && tags @> 'generated'"
     prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
     prometheus.io/path: "/actuator/prometheus"           # Ruta relativa al punto de enlace de métricas
