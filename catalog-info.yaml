@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "config-service-02"
+  name: "service-spring-prueba"
   annotations:
     github.com/project-slug: anpeni/ backstage2206-06
     backstage.io/techdocs-ref: dir:.
