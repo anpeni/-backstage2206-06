@@ -29,9 +29,9 @@ metadata:
     prometheus.io/rule: 'jvm_memory_used_bytes, jvm_gc_pause_seconds_max'
     prometheus.io/alert: 'TestAlert'
     # grafana/dashboard-selector: "(tags @> 'my-service' || tags @> 'my-service-slo') && tags @> 'generated'"
-    prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
-    prometheus.io/path: "/actuator/prometheus"           # Ruta relativa al punto de enlace de métricas
-    prometheus.io/port: "8080"
+    # prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
+    # prometheus.io/path: "/actuator/prometheus"           # Ruta relativa al punto de enlace de métricas
+    # prometheus.io/port: "8080"
 spec:
   type: service
   lifecycle: experimental
