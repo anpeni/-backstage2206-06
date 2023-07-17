@@ -4,7 +4,7 @@ metadata:
   name: "service-spring-tekton"
   annotations:
     github.com/project-slug: anpeni/ backstage2206-06
-    tektonci/build-namespace: tekton-dashboard
+    tektonci/build-namespace: 'cicd'
     # backstage.io/techdocs-ref: dir:.
     # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
     # grafana/alert-label-selector: "alertname=alerta1"
