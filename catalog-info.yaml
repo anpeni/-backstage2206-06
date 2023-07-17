@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: anpeni/ backstage2206-06
     tektonci/build-namespace: 'cicd'
-    tektonci/pipeline-label-selector: kustomize.toolkit.fluxcd.io/name:cluster-tools-cicd-pipelines
+    tektonci/pipeline-label-selector: 'kustomize.toolkit.fluxcd.io/name:cluster-tools-cicd-pipelines'
     # backstage.io/techdocs-ref: dir:.
     # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
     # grafana/alert-label-selector: "alertname=alerta1"
