@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "service-spring-grafana"
+  name: "service-spring-graf"
   annotations:
     github.com/project-slug: anpeni/ backstage2206-06
     tektonci/build-namespace: 'cicd'
