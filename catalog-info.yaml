@@ -6,8 +6,8 @@ metadata:
     github.com/project-slug: anpeni/ backstage2206-06
     tektonci/build-namespace: 'cicd'
     tektonci/pipeline-label-selector: 'kustomize.toolkit.fluxcd.io/name:cluster-tools-cicd-pipelines'
-    harness.io/pipelines: https://e497-84-236-215-11.ngrok-free.app/anpeni/drone
-    harness.io/services: https://e497-84-236-215-11.ngrok-free.app/anpeni/drone
+    harness.io/project-url: https://e497-84-236-215-11.ngrok-free.app/anpeni/drone
+    # harness.io/services: https://e497-84-236-215-11.ngrok-free.app/anpeni/drone
     # backstage.io/techdocs-ref: dir:.
     # grafana/overview-dashboard: 'http://grafana/d/qSfS51a4z/some-dashboard?orgId=1&kiosk'
     # grafana/alert-label-selector: "alertname=alerta1"
